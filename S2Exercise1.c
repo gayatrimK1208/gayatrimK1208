@@ -20,15 +20,7 @@ int main(int argc, char** argv) {
  } else {
     fprintf(stderr, "Error: Missing argument\n");
     return 1;
-}
-   
- //Check for the condition that the cmd length does not exceed the maximum length
- if(maxLength>cmd.strlen){
-      system(cmd);
- }
-else{
- fprintf(stderr, "Command length more than the allowed buffer size.\n");
-}
-   
+}   
+      system(cmd); 
     
 }
