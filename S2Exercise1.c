@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
     return 1;
 }   
 //Use execv with wait to ensure that the system commands are not executed uncontrollably
- pid_t parent = getpid();
+pid_t parent = getpid();
 pid_t pid = fork();
 
 if (pid == -1)
