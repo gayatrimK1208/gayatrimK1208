@@ -1,2 +1,2 @@
 all:
-	gcc -o main S2Exercise1.c
+	gcc -o main S2Exercise1a.c
