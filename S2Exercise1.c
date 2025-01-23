@@ -13,7 +13,7 @@ int main(int argc, char** argv) {
         return -1;
     }
     char cmd[BUFSIZE] = "wc -c < ";
- Usage of the strncat function allows to specify the maximum number of characters to append, ensuring you stay within bounds.
+// Usage of the strncat function allows to specify the maximum number of characters to append, ensuring you stay within bounds.
  if (argv[1] != NULL) {
     // Append argv[1] safely
     strncat(cmd, argv[1], BUFSIZE - strlen(cmd) - 1);
